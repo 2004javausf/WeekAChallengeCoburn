@@ -5,6 +5,16 @@ public class House {
 	private int rooms = 3;
 	private String color;
 	
+	public House() {
+		
+	}
+
+	public House(int squareFeet, int rooms, String color) {
+		this.squareFeet = squareFeet;
+		this.rooms = rooms;
+		this.color = color;
+	}
+	
 	public int getSquareFeet() {
 		return squareFeet;
 	}
@@ -50,6 +60,5 @@ public class House {
 		break;
 		}
 	}
-	
 	
 }

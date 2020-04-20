@@ -37,6 +37,7 @@ public class Driver {
 			hello--;
 		} while(hello > 0);
 		
+
 		
 		
 		House h = new House();
@@ -49,7 +50,7 @@ public class Driver {
 		m.setBrand("Samsung");
 		System.out.println(m.getBrand());
 		
-		
+		h.theCaseColor("red");
+		m.pixelMultiplier();
 	}
-
 }

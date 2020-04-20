@@ -1,10 +1,19 @@
 package com.revature.beans;
 
 public class Monitor {
-	private Integer pixels;
+	private Integer pixels = 1080;
 	private String brand;
 	private String responseTime;
 	
+	public Monitor() {
+	}
+	
+	public Monitor(Integer pixels, String brand, String responseTime) {
+		this.pixels = pixels;
+		this.brand = brand;
+		this.responseTime = responseTime;
+	}
+
 	public Integer getPixels() {
 		return pixels;
 	}
