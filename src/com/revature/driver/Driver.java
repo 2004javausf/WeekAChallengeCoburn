@@ -14,13 +14,16 @@ public class Driver {
 		
 		int favNumber = scanny.nextInt();
 		
+		//Wrapper class
 		Integer inty = new Integer(favNumber);
 		System.out.println(inty);
 		
+		//For loop
 		for(int i = 0; i <= inty; i++) {
 			System.out.println(i);
 		}
 		
+		//enhanced for loop / if & elseif Statement
 		for(int j : arya) {
 			if(j > 10 && j < 100) {
 				System.out.println(j + " is a fantastic choice");
@@ -31,17 +34,18 @@ public class Driver {
 			j++;
 		}
 		
+		//Do while loop
 		int hello = 19;
 		do {
-			System.out.println("Hello there");
+			System.out.println("hello there");
 			hello--;
 		} while(hello > 0);
 		
-
-		
-		
-		House h = new House();
+		//Instantiation of Monitor and House
 		Monitor m = new Monitor();
+		House h = new House();
+		
+		//Utilizing the Scannerrrr
 		System.out.println("How many rooms are in your house?");
 		int numberOfRooms = scanny.nextInt();
 		h.setRooms(numberOfRooms);
@@ -50,7 +54,10 @@ public class Driver {
 		m.setBrand("Samsung");
 		System.out.println(m.getBrand());
 		
+		//Check out the switch case in the House class!
 		h.theCaseColor("red");
+		
+		//Method overloading
 		m.pixelMultiplier();
 	}
 }

@@ -33,6 +33,7 @@ public class Monitor {
 		this.responseTime = responseTime;
 	}
 	
+	//Method overloadingggggggg
 	public void pixelMultiplier() {
 		System.out.println(pixels);
 	}

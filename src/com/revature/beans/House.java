@@ -6,7 +6,6 @@ public class House {
 	private String color;
 	
 	public House() {
-		
 	}
 
 	public House(int squareFeet, int rooms, String color) {
